@@ -7,7 +7,7 @@ This section covered:
 - [x] What is the MVC?
 - [x] Adding Controllers
 - [x] Finishing the Controllers
-- [ ] Adding a Product Model
+- [x] Adding a Product Model
 - [ ] Storing Data in Files Via the Model
 - [ ] Fetching Data from Files Via the Model
 - [ ] Refactoring the File Storage Code
