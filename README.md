@@ -4,9 +4,9 @@ Examples from the **"Section 7: The Model View Controller (MVC)"** of the course
 
 This section covered:
 
-- [ ] What is the MVC?
-- [ ] Adding Controllers
-- [ ] Finishing the Controllers
+- [x] What is the MVC?
+- [x] Adding Controllers
+- [x] Finishing the Controllers
 - [ ] Adding a Product Model
 - [ ] Storing Data in Files Via the Model
 - [ ] Fetching Data from Files Via the Model
