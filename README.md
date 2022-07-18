@@ -1,8 +1,8 @@
-# Node.js: The Model View Controller (MVC)
+# Node.js: The Model View Controller (MVC) & Enhancing the App
 
-Examples from the **"Section 7: The Model View Controller (MVC)"** of the course **"NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"** by Academind (Maximilian Schwarzmüller).
+Examples from the **"Section 7: The Model View Controller (MVC)" and Section 8: Enhancing the App** of the course **"NodeJS - The Complete Guide (MVC, REST APIs, GraphQL, Deno)"** by Academind (Maximilian Schwarzmüller).
 
-This section covered:
+Section 7 covered:
 
 - [x] What is the MVC?
 - [x] Adding Controllers
@@ -11,6 +11,16 @@ This section covered:
 - [x] Storing Data in Files Via the Model
 - [x] Fetching Data from Files Via the Model
 - [x] Refactoring the File Storage Code
+
+Section 8 covered:
+
+- [ ] Creating the Shop Structure
+- [ ] Working on the Navigation
+- [ ] Registering the Routes
+- [ ] Storing Product Data
+- [ ] Displaying Product Data
+- [ ] Editing & Deleting Products
+- [ ] Adding Another Item
 
 
 More info: https://www.udemy.com/course/nodejs-the-complete-guide/
