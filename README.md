@@ -10,7 +10,7 @@ This section covered:
 - [x] Adding a Product Model
 - [x] Storing Data in Files Via the Model
 - [x] Fetching Data from Files Via the Model
-- [ ] Refactoring the File Storage Code
+- [x] Refactoring the File Storage Code
 
 
 More info: https://www.udemy.com/course/nodejs-the-complete-guide/
