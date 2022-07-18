@@ -20,7 +20,7 @@ Section 8 covered:
 - [x] Storing Product Data
 - [x] Displaying Product Data
 - [x] Editing & Deleting Products
-- [ ] Adding Another Item
+- [x] Adding Another Item
 
 
 More info: https://www.udemy.com/course/nodejs-the-complete-guide/
