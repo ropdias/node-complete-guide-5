@@ -17,7 +17,7 @@ Section 8 covered:
 - [x] Creating the Shop Structure
 - [x] Working on the Navigation
 - [x] Registering the Routes
-- [ ] Storing Product Data
+- [x] Storing Product Data
 - [ ] Displaying Product Data
 - [ ] Editing & Deleting Products
 - [ ] Adding Another Item
