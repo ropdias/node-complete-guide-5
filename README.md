@@ -18,7 +18,7 @@ Section 8 covered:
 - [x] Working on the Navigation
 - [x] Registering the Routes
 - [x] Storing Product Data
-- [ ] Displaying Product Data
+- [x] Displaying Product Data
 - [ ] Editing & Deleting Products
 - [ ] Adding Another Item
 
