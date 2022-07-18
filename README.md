@@ -8,8 +8,8 @@ This section covered:
 - [x] Adding Controllers
 - [x] Finishing the Controllers
 - [x] Adding a Product Model
-- [ ] Storing Data in Files Via the Model
-- [ ] Fetching Data from Files Via the Model
+- [x] Storing Data in Files Via the Model
+- [x] Fetching Data from Files Via the Model
 - [ ] Refactoring the File Storage Code
 
 
