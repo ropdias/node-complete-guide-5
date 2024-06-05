@@ -1,6 +1,11 @@
-const Product = require('../models/product');
+import { Request, Response, NextFunction } from 'express';
+import Product from '../models/product';
 
-exports.getProducts = (req, res, next) => {
+export const getProducts = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   Product.fetchAll((products) => {
     res.render('shop/product-list', {
       prods: products,
@@ -10,7 +15,7 @@ exports.getProducts = (req, res, next) => {
   });
 };
 
-exports.getIndex = (req, res, next) => {
+export const getIndex = (req: Request, res: Response, next: NextFunction) => {
   Product.fetchAll((products) => {
     res.render('shop/index', {
       prods: products,
@@ -20,21 +25,25 @@ exports.getIndex = (req, res, next) => {
   });
 };
 
-exports.getCart = (req, res, next) => {
+export const getCart = (req: Request, res: Response, next: NextFunction) => {
   res.render('shop/cart', {
     path: '/cart',
     pageTitle: 'Your Cart',
   });
 };
 
-exports.getOrders = (req, res, next) => {
+export const getOrders = (req: Request, res: Response, next: NextFunction) => {
   res.render('shop/orders', {
     path: '/orders',
     pageTitle: 'Your Orders',
   });
 };
 
-exports.getCheckout = (req, res, next) => {
+export const getCheckout = (
+  req: Request,
+  res: Response,
+  next: NextFunction
+) => {
   res.render('shop/checkout', {
     path: '/checkout',
     pageTitle: 'Checkout',

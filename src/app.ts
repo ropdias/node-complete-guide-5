@@ -1,17 +1,14 @@
-const path = require('path');
-
-const express = require('express');
-const bodyParser = require('body-parser');
-
-const errorControler = require('./controllers/error');
+import path from 'path';
+import express from 'express';
+import bodyParser from 'body-parser';
+import { get404 } from './controllers/error';
+import adminRoutes from './routes/admin';
+import shopRoutes from './routes/shop';
 
 const app = express();
 
 app.set('view engine', 'ejs');
-app.set('views', 'views');
-
-const adminRoutes = require('./routes/admin');
-const shopRoutes = require('./routes/shop');
+app.set('views', 'src/views');
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(express.static(path.join(__dirname, 'public')));
@@ -19,6 +16,6 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/admin', adminRoutes);
 app.use(shopRoutes);
 
-app.use(errorControler.get404);
+app.use(get404);
 
 app.listen(3000);
