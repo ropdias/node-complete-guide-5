@@ -1,8 +1,8 @@
-const fs = require("fs");
-const path = require("path");
-const rootDir = require("../util/path");
+const fs = require('fs');
+const path = require('path');
+const rootDir = require('../util/path');
 
-const p = path.join(rootDir, "data", "products.json");
+const p = path.join(rootDir, 'data', 'products.json');
 
 const getProductsFromFile = (cb) => {
   fs.readFile(p, (err, fileContent) => {
